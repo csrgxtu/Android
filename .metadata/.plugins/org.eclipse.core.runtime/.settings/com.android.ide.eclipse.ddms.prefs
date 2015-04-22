@@ -7,3 +7,4 @@ logcat.view.colsize.TID=70
 logcat.view.colsize.Tag=133
 logcat.view.colsize.Text=680
 logcat.view.colsize.Time=198
+logcat.view.filters.list=name\: 'io.github.csrgxtu.GoogleMap', tag\: '', text\: '', pid\: '', app\: 'io.github.csrgxtu.GoogleMap', level\: 'verbose', 
