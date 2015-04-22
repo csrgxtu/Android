@@ -1,9 +1,12 @@
 package io.github.csrgxtu.HelloAndroid;
 
-import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -12,6 +15,15 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
+        findViewById(R.id.start_button).setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				//startActivity(new Intent(MainActivity.this, AnotherActivity.class));
+				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://csrgxtu.github.io")));
+			}
+		});
         //setContentView(R.layout.activity_my);
     }
 
