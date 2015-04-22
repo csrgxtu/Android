@@ -1,5 +1,9 @@
 package io.github.csrgxtu.GoogleMap;
 
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.SupportMapFragment;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;

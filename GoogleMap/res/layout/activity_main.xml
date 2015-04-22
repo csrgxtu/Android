@@ -3,7 +3,5 @@
     android:id="@+id/the_map"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:name="com.google.android.gms.maps.MapFragment"
-    map:cameraTilt="45"
-    map:cameraZoom="14"
+    class="com.google.android.gms.maps.SupportMapFragment"
     />
