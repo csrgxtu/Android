@@ -14,7 +14,7 @@ public class TestService extends IntentService {
 	@Override
 	protected void onHandleIntent(Intent intent) {
 		Log.i(TAG, "In IntentService");
-		String url = "http://localhost:1337/GPS";
+		String url = "http://192.168.10.210:3000/GPS";
 		RESTClient client = new RESTClient(url);
 		client.run();
 		Log.i(TAG, "After Http REST Request");
