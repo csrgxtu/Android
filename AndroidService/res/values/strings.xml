@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidService</string>
+    <string name="start_service">Start</string>
+    <string name="stop_service">Stop</string>
+    <string name="intro">Show ya how to use Android Service</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
