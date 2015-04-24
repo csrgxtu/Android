@@ -17,8 +17,14 @@ public class RESTClient {
 	
 	public boolean run() {
 		try {
-			HttpResponse<JsonNode> jsonResponse = Unirest.get(this.Url)
-					.asJson();
+			//Unirest.setTimeouts(long connectionTimeout, long socketTimeout);
+			//HttpResponse<JsonNode> jsonResponse = Unirest.get(this.Url)
+			//		.asJson();
+			
+			HttpResponse<JsonNode> jsonResponse = Unirest.post("http://httpbin.org/post")
+					  .queryString("apiKey", "123")
+					  .asJson();
+			
 			Log.i(TAG, jsonResponse.getBody().getObject().toString());
 		} catch (UnirestException e) {
 			// TODO Auto-generated catch block
