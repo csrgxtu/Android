@@ -1,6 +1,8 @@
 var express = require('express');
+var bodyParser = require('body-parser');
 
 var app = express();
+app.use(bodyParser.urlencoded({extended: false}));
 
 var data = {
   error: 0,
@@ -9,7 +11,7 @@ var data = {
 };
 
 app.post('/GPS', function cb(req, res) {
-  console.log(JSON.parse(req.param('data')));
+  console.log(req.body.data);
 
   return res.json(data);
 });

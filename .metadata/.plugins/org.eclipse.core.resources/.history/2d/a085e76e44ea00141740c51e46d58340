@@ -1,0 +1,64 @@
+package io.github.csrgxtu.HttpClientTut;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.HttpClientBuilder;
+
+public class Main {
+	public static void main(String[] args) {
+		String url = "http://192.168.10.176:3000/GPS";
+		 
+		HttpClient client = HttpClientBuilder.create().build();
+		HttpGet request = new HttpGet(url);
+	 
+		// add request header
+		HttpResponse response = null;
+		try {
+			response = client.execute(request);
+		} catch (ClientProtocolException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		try {
+			System.out.println(response.getEntity().getContent().toString());
+		} catch (IllegalStateException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
+		BufferedReader rd = null;
+		try {
+			rd = new BufferedReader(
+				new InputStreamReader(response.getEntity().getContent()));
+		} catch (IllegalStateException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	 
+		StringBuffer result = new StringBuffer();
+		String line = "";
+		try {
+			while ((line = rd.readLine()) != null) {
+				result.append(line);
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println(line);
+	}
+}

@@ -1,1 +1,1 @@
-{}
+[[{"location":"/home/archer/Documents/Android/HttpClientTut/libs/httpcore-4.3.3.jar","type":"JAR","hints":{}},"org.apache.httpcomponents:httpcore:4.3.3"],[{"location":"/home/archer/Bin/android-sdk-linux/platforms/android-22/android.jar","type":"JAR","hints":{}},"ABSENT"],[{"location":"/home/archer/Bin/jdk1.8.0_40","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"]]

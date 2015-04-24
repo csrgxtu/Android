@@ -4,6 +4,7 @@
 <fullyQualifiedTypeName name="io.github.csrgxtu.AndroidService.R.id"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.app.Service"/>
-<fullyQualifiedTypeName name="com.mashape.unirest.http.HttpResponse"/>
 <fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="com.mashape.unirest.http.HttpResponse"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
 </qualifiedTypeNameHistroy>
