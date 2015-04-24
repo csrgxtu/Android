@@ -11,3 +11,5 @@
 [Unirest](http://unirest.io/)
 
 [restful-web-app-node-express-mongodb](http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/)
+
+[REST PUT in Java using HttpPut](http://www.areteix.net/blog/2013/04/rest-put-in-java-using-httpput/)
