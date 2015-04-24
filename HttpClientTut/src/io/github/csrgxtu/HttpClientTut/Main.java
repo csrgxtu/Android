@@ -16,6 +16,8 @@ public class Main {
 		
 		RESTClient client = new RESTClient(url);
 		//client.doGet();
-		client.doPost();
+		//client.doPost();
+		client.doPut();
+		//client.doDelete();
 	}
 }
