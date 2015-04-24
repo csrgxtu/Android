@@ -11,7 +11,7 @@ public class Main {
 		json.put("sex", "male");
 		
 		RESTClient client = new RESTClient(url);
-		//client.doPost();
+		System.out.println(client.doPost());
 		//client.doPost(json, "data");
 		//client.doGet();
 		//client.doPut();

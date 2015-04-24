@@ -27,7 +27,10 @@ public class RESTClient {
 		this.Url = url;
 	}
 	
-	public boolean doPost() {
+	/**
+	 * @return String or null
+	 */
+	public String doPost() {
 		HttpClient client = HttpClientBuilder.create().build();
 		HttpPost request = new HttpPost(this.Url);
 		
@@ -40,19 +43,25 @@ public class RESTClient {
 			while ((line = rd.readLine()) != null) {
 				result.append(line);
 			}
-			System.out.println(result);
+			//System.out.println(result);
+			return result.toString();
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
-			return false;
+			return null;
 		} catch (IOException e) {
 			e.printStackTrace();
-			return false;
+			return null;
 		}
-		
-		return true;
 	}
 	
-	public boolean doPost(JSONObject json, String key) {
+	/**
+	 * put your post data in a JSONObject and give it a key
+	 * 
+	 * @param json JSONObject
+	 * @param key String
+	 * @return String or null
+	 */
+	public String doPost(JSONObject json, String key) {
 		HttpClient client = HttpClientBuilder.create().build();
 		HttpPost request = new HttpPost(this.Url);
 		
@@ -69,19 +78,21 @@ public class RESTClient {
 			while ((line = rd.readLine()) != null) {
 				result.append(line);
 			}
-			System.out.println(result);
+			//System.out.println(result);
+			return result.toString();
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
-			return false;
+			return null;
 		} catch (IOException e) {
 			e.printStackTrace();
-			return false;
+			return null;
 		}
-		
-		return true;
 	}
 	
-	public boolean doGet() {
+	/**
+	 * @return String null
+	 */
+	public String doGet() {
 		HttpClient client = HttpClientBuilder.create().build();
 		HttpGet request = new HttpGet(this.Url);
 		
@@ -93,19 +104,21 @@ public class RESTClient {
 			while ((line = rd.readLine()) != null) {
 				result.append(line);
 			}
-			System.out.println(result);
+			//System.out.println(result);
+			return result.toString();
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
-			return false;
+			return null;
 		} catch (IOException e) {
 			e.printStackTrace();
-			return false;
+			return null;
 		}
-		
-		return true;
 	}
 	
-	public boolean doPut() {
+	/**
+	 * @return String or null
+	 */
+	public String doPut() {
 		HttpClient client = HttpClientBuilder.create().build();
 		HttpPut request = new HttpPut(this.Url);
 		
@@ -117,18 +130,25 @@ public class RESTClient {
 			while ((line = rd.readLine()) != null) {
 				result.append(line);
 			}
-			System.out.println(result);
+			//System.out.println(result);
+			return result.toString();
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
-			return false;
+			return null;
 		} catch (IOException e) {
 			e.printStackTrace();
-			return false;
+			return null;
 		}
-		return true;
 	}
 	
-	public boolean doPut(JSONObject json, String key) {
+	/**
+	 * put your post data in a JSONObject and give it a key
+	 * 
+	 * @param json JSONObject
+	 * @param key String
+	 * @return String or null
+	 */
+	public String doPut(JSONObject json, String key) {
 		HttpClient client = HttpClientBuilder.create().build();
 		HttpPut request = new HttpPut(this.Url);
 		
@@ -145,18 +165,21 @@ public class RESTClient {
 			while ((line = rd.readLine()) != null) {
 				result.append(line);
 			}
-			System.out.println(result);
+			//System.out.println(result);
+			return result.toString();
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
-			return false;
+			return null;
 		} catch (IOException e) {
 			e.printStackTrace();
-			return false;
+			return null;
 		}
-		return true;
 	}
 	
-	public boolean doDelete() {
+	/**
+	 * @return String or null
+	 */
+	public String doDelete() {
 		HttpClient client = HttpClientBuilder.create().build();
 		HttpDelete request = new HttpDelete(this.Url);
 		
@@ -168,16 +191,15 @@ public class RESTClient {
 			while ((line = rd.readLine()) != null) {
 				result.append(line);
 			}
-			System.out.println(result);
+			//System.out.println(result);
+			return result.toString();
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
-			return false;
+			return null;
 		} catch (IOException e) {
 			e.printStackTrace();
-			return false;
+			return null;
 		}
-		
-		return true;
 	}
 	
 	public String getUrl() {
