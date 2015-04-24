@@ -21,6 +21,7 @@ app.get('/GPS', function cb(req, res) {
 });
 
 app.put('/GPS', function cb(req, res) {
+  console.log(req.body.data);
   return res.json(data);
 });
 

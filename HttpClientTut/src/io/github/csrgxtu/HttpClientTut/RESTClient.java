@@ -15,6 +15,7 @@ import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.methods.HttpPut;
+import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.simple.JSONObject;
@@ -110,6 +111,13 @@ public class RESTClient {
 		
 		try {
 			HttpResponse response = client.execute(request);
+			BufferedReader rd = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
+			StringBuffer result = new StringBuffer();
+			String line = null;
+			while ((line = rd.readLine()) != null) {
+				result.append(line);
+			}
+			System.out.println(result);
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
 			return false;
@@ -125,7 +133,19 @@ public class RESTClient {
 		HttpPut request = new HttpPut(this.Url);
 		
 		try {
-			HttpResponse response = client.execute(request);
+		    List<NameValuePair> postData = new ArrayList<NameValuePair>(1);
+		    postData.add(new BasicNameValuePair(key, json.toJSONString()));
+		    request.setEntity(new UrlEncodedFormEntity(postData, "UTF-8"));
+            
+            HttpResponse response = client.execute(request);
+            
+			BufferedReader rd = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
+			StringBuffer result = new StringBuffer();
+			String line = null;
+			while ((line = rd.readLine()) != null) {
+				result.append(line);
+			}
+			System.out.println(result);
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
 			return false;
