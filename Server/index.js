@@ -9,8 +9,7 @@ var data = {
 };
 
 app.post('/GPS', function cb(req, res) {
-  console.log(req.param('data'));
-  console.log(JSON.parse(req.param('data')).lat);
+  console.log(JSON.parse(req.param('data')));
 
   return res.json(data);
 });
