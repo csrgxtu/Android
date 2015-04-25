@@ -1,5 +1,6 @@
 package io.github.csrgxtu.AndroidService;
 
+//import io.github.csrgxtu.HttpClientTut.RESTClient;
 import android.app.IntentService;
 import android.content.Intent;
 import android.util.Log;
@@ -14,9 +15,9 @@ public class TestService extends IntentService {
 	@Override
 	protected void onHandleIntent(Intent intent) {
 		Log.i(TAG, "In IntentService");
-		String url = "http://192.168.10.176:3000/GPS";
+		String url = "http://192.168.10.210:3000/GPS";
 		RESTClient client = new RESTClient(url);
-		client.doRequest();
+		Log.i(TAG, client.doGet());
 		Log.i(TAG, "After Http REST Request");
 	}
 }

@@ -1,0 +1,29 @@
+package io.github.csrgxtu.AndroidService;
+
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+
+import org.json.simple.JSONObject;
+
+import ch.boye.httpclientandroidlib.impl.client.HttpClientBuilder;
+
+public class RESTClient {
+	private String Url;
+	
+	public RESTClient(String url) {
+		this.Url = url;
+	}
+	
+	public String getUrl() {
+		return this.Url;
+	}
+	
+	public void setUrl(String url) {
+		this.Url = url;
+	}
+}
