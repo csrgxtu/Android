@@ -9,4 +9,5 @@
 <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
 <fullyQualifiedTypeName name="org.apache.http.NameValuePair"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.omg.CORBA_2_3.portable.OutputStream"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;RESTfulClient.java&apos; to &apos;AndroidService/src/io.github.csrgxtu.AndroidService&apos;&#x0A;- Original project: &apos;RESTfulClient&apos;&#x0A;- Destination element: &apos;AndroidService/src/io.github.csrgxtu.AndroidService&apos;&#x0A;- Original element: &apos;io.github.csrgxtu.RESTfulClient.RESTfulClient.java&apos;" description="Copy compilation unit" destination="=AndroidService/src&lt;io.github.csrgxtu.AndroidService" element1="/src&lt;io.github.csrgxtu.RESTfulClient{RESTfulClient.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1429928783732" units="1" version="1.0"/>
+</session>
