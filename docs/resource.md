@@ -19,3 +19,5 @@
 [OkHttp](http://square.github.io/okhttp/)
 
 [Android’s HTTP Clients](http://android-developers.blogspot.jp/2011/09/androids-http-clients.html)
+
+[RESTful Java client with java.net.URL](http://www.mkyong.com/webservices/jax-rs/restfull-java-client-with-java-net-url/)
