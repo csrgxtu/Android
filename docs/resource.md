@@ -13,3 +13,9 @@
 [restful-web-app-node-express-mongodb](http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/)
 
 [REST PUT in Java using HttpPut](http://www.areteix.net/blog/2013/04/rest-put-in-java-using-httpput/)
+
+[Android Asynchronous Http Client](http://loopj.com/android-async-http/)
+
+[OkHttp](http://square.github.io/okhttp/)
+
+[Android’s HTTP Clients](http://android-developers.blogspot.jp/2011/09/androids-http-clients.html)
