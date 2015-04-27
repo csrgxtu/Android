@@ -22,7 +22,7 @@ public class TestService extends IntentService {
 		RESTfulClient client = new RESTfulClient(url);
 		
 		for (int i = 0; i < 100; i++) {
-			//Log.i(TAG, gps.getLocation().toString());
+			Log.i(TAG, gps.getLocation().toString());
 			Location location = gps.getLocation();
 			JSONObject json = new JSONObject();
 			json.put("lat", location.getLatitude());
