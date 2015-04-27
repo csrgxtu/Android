@@ -23,3 +23,7 @@
 [RESTful Java client with java.net.URL](http://www.mkyong.com/webservices/jax-rs/restfull-java-client-with-java-net-url/)
 
 [How to use HttpURLConnection POST data to web server?](https://community.oracle.com/thread/2355895)
+
+[百度定位SDK实现获取当前经纬度及位置](http://blog.csdn.net/ryantang03/article/details/7951260)
+
+[Baidu SDK Download](http://lbsyun.baidu.com/sdk/download)
