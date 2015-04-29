@@ -40,15 +40,15 @@ public class MainActivity extends ActionBarActivity {
         option.setScanSpan(UPDATE_TIME);
         locationClient.setLocOption(option);
         
-        //注册位置监听器
+        //注册位置监听器  
         locationClient.registerLocationListener(new BDLocationListener() {  
               
-            @Override
+            @Override  
             public void onReceiveLocation(BDLocation location) {  
                 // TODO Auto-generated method stub  
                 if (location == null) {  
                     return;  
-                }
+                }  
                 StringBuffer sb = new StringBuffer(256);  
                 sb.append("Time : ");  
                 sb.append(location.getTime());  
@@ -75,7 +75,7 @@ public class MainActivity extends ActionBarActivity {
                 sb.append("\n检查位置更新次数：");  
                 sb.append(String.valueOf(LOCATION_COUTNS));  
                 locationInfoTextView.setText(sb.toString());  
-            }
+            }  
         });
         
         startButton.setOnClickListener(new OnClickListener() {  
