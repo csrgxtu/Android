@@ -65,9 +65,11 @@ public class MainActivity extends ActionBarActivity {
                     sb.append(location.getSpeed());  
                     sb.append("\nSatellite : ");  
                     sb.append(location.getSatelliteNumber());  
+                    System.out.println("Address: " + location.getAddrStr());
                 } else if (location.getLocType() == BDLocation.TypeNetWorkLocation){  
                     sb.append("\nAddress : ");  
-                    sb.append(location.getAddrStr());  
+                    sb.append(location.getAddrStr());
+                    System.out.println("Address: " + location.getAddrStr());
                 }  
                 LOCATION_COUTNS ++;  
                 sb.append("\n检查位置更新次数：");  
