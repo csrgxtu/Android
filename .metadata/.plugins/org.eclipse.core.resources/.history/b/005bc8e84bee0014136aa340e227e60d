@@ -1,0 +1,45 @@
+package io.github.csrgxtu.GpsLocation;
+
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.TextView;
+
+import com.baidu.location.LocationClient;
+//假如用到位置提醒功能，需要import该类
+//如果使用地理围栏功能，需要import如下类
+
+public class MainActivity extends ActionBarActivity {
+    private TextView locationInfoTextView = null;  
+    private Button startButton = null;  
+    private LocationClient locationClient = null;  
+    private static final int UPDATE_TIME = 5000;  
+    private static int LOCATION_COUTNS = 0;
+    
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.example);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+}

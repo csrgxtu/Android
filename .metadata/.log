@@ -9437,3 +9437,890 @@ Caused by: java.lang.ClassNotFoundException: io.github.csrgxtu.GoogleMap.R$dimen
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
 	... 46 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-04-29 16:12:52.357
+!MESSAGE Failed to load properties file for project 'GpsLocation'
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.253
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.253
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.254
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.254
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.254
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.255
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.259
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.259
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.259
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.260
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.260
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.261
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.261
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.261
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.261
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.261
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.262
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.262
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.262
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.262
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.263
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.263
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.263
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.263
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.264
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.264
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.264
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.264
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.265
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.265
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.265
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.265
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.266
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.266
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.266
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.266
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.267
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.267
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.268
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.271
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.271
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.272
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.272
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.272
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.272
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.273
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.273
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.273
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.273
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.274
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.274
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.274
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.275
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.275
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.275
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.275
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.276
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.276
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.276
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.276
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.276
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.276
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.277
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.277
+!MESSAGE Resource '/GpsLocation/bin/classes/android/support/v7/appcompat' does not exist.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 368 2015-04-29 16:12:55.277
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Synchronizer.setSyncInfo(Synchronizer.java:244)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$SyncInfoSynchronizedAccessor.flushPendingCacheWrites(SynchronizerSyncInfoCache.java:250)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache$1.run(SynchronizerSyncInfoCache.java:195)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.tigris.subversion.subclipse.core.status.SynchronizerSyncInfoCache.flushPendingStatuses(SynchronizerSyncInfoCache.java:193)
+	at org.tigris.subversion.subclipse.core.status.StatusCacheManager.resourceChanged(StatusCacheManager.java:365)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:364)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:139)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-04-29 16:12:55.277
+!MESSAGE Resource '/GpsLocation/bin/classes/io/github/csrgxtu/GpsLocation' does not exist.
+!SESSION 2015-04-29 16:13:22.026 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data /home/archer/Documents/Android -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2015-04-29 16:13:28.536
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-29 16:13:28.537
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@322350a9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c84a0f6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-29 16:13:28.537
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@37638d4f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68d259f1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2015-04-29 17:07:04.857 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data /home/archer/Documents/Android -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2015-04-29 17:07:11.596
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-29 17:07:11.596
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16ad41bf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@48b76e3a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-29 17:07:11.596
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2a5c722,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51b48a89,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

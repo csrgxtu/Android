@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="io.github.csrgxtu.HelloAndroid.R.layout"/>
 <fullyQualifiedTypeName name="io.github.csrgxtu.AndroidService.R.id"/>
-<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.app.Service"/>
 <fullyQualifiedTypeName name="com.mashape.unirest.http.HttpResponse"/>
 <fullyQualifiedTypeName name="org.apache.http.NameValuePair"/>
@@ -10,4 +9,9 @@
 <fullyQualifiedTypeName name="org.omg.CORBA_2_3.portable.OutputStream"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
 <fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="com.baidu.location.LocationClient"/>
+<fullyQualifiedTypeName name="com.baidu.location.LocationClientOption"/>
+<fullyQualifiedTypeName name="com.baidu.location.BDLocation"/>
+<fullyQualifiedTypeName name="com.baidu.location.BDLocationListener"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 </qualifiedTypeNameHistroy>
