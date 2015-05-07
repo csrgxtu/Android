@@ -14,5 +14,10 @@
 			<type>2</type>
 			<location>/home/archer/Bin/android-sdk-linux/sources/android-22</location>
 		</link>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>/home/archer/Bin/android-sdk-linux/sources/android-19</location>
+		</link>
 	</linkedResources>
 </projectDescription>
