@@ -1,6 +1,11 @@
 angular.module('todo', ['ionic'])
 
 .controller('TodoCtrl', function($scope, $ionicModal) {
+  ionic.Platform.ready(function() {
+     // hide the status bar using the StatusBar plugin
+     StatusBar.hide();
+  })
+
   // No need for testing data anymore
   $scope.tasks = [];
 
