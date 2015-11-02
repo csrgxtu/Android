@@ -27,3 +27,6 @@
 [百度定位SDK实现获取当前经纬度及位置](http://blog.csdn.net/ryantang03/article/details/7951260)
 
 [Baidu SDK Download](http://lbsyun.baidu.com/sdk/download)
+
+[Install Android x86 Emulator ‘Genymotion’ in Ubuntu 14.04/13.10](http://ubuntuhandbook.org/index.php/2014/02/install-android-emulator-ubuntu-linux/)  
+
