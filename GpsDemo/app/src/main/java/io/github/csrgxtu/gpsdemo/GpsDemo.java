@@ -149,12 +149,6 @@ public class GpsDemo extends AppCompatActivity {
         }
     }
 
-    public void UpdateMessage(View view) {
-        TextView txtView = (TextView) findViewById(R.id.fullscreen_content);
-        txtView.setText("Geolocation" + counter);
-        counter++;
-    }
-
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
