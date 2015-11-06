@@ -4,11 +4,17 @@
     android:layout_height="match_parent"
     android:orientation="horizontal" >
 
-    <EditText android:id="@+id/edit_message"
+    <EditText android:id="@+id/username"
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="@string/edit_message" />
+        android:hint="@string/username" />
+    <EditText android:id="@+id/password"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/password" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

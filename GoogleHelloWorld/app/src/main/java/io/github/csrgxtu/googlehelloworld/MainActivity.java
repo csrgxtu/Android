@@ -1,5 +1,6 @@
 package io.github.csrgxtu.googlehelloworld;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -9,9 +10,11 @@ import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String TAG = "AppCompatActivity";
+//    private static final String TAG = "AppCompatActivity";
+    public final static String EXTRA_MESSAGE = "io.github.csrgxtu.googlehelloworld.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,9 +33,17 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+//    public void sendMessage(View view) {
+//        // Do something here
+//        Log.i(TAG, "sendMessage...");
+//    }
+
     public void sendMessage(View view) {
-        // Do something here
-        Log.v(TAG, "sendMessage...");
+        Intent intent = new Intent(this, DisplayMessageActivity.class);
+        EditText editText = (EditText) findViewById(R.id.username);
+        String message = editText.getText().toString();
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
     }
 
     @Override
