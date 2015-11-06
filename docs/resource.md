@@ -31,4 +31,4 @@
 [Install Android x86 Emulator ‘Genymotion’ in Ubuntu 14.04/13.10](http://ubuntuhandbook.org/index.php/2014/02/install-android-emulator-ubuntu-linux/)  
 
 [Build Your First Mobile App With The Ionic Framework - Part 4](http://gonehybrid.com/build-your-first-mobile-app-with-the-ionic-framework-part-4/)  
-
+[Android Location Based Services Application – GPS location](http://www.javacodegeeks.com/2010/09/android-location-based-services.html)  
