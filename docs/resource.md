@@ -32,3 +32,8 @@
 
 [Build Your First Mobile App With The Ionic Framework - Part 4](http://gonehybrid.com/build-your-first-mobile-app-with-the-ionic-framework-part-4/)  
 [Android Location Based Services Application – GPS location](http://www.javacodegeeks.com/2010/09/android-location-based-services.html)  
+
+[okhttp android rest client](https://github.com/square/okhttp)  
+[okhttp async mode](http://stackoverflow.com/questions/28135338/okhttp-library-networkonmainthreadexception-on-simple-post)  
+[Android network permission](http://stackoverflow.com/questions/28510391/permission-denied-missing-internet-permission)  
+
