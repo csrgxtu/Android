@@ -14,11 +14,17 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.JsonNode;
+import com.mashape.unirest.http.Unirest;
+import com.mashape.unirest.http.exceptions.UnirestException;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -122,6 +128,21 @@ public class GpsDemo extends AppCompatActivity {
         if (location != null) {
             String message = String.format("Current Location \n Longitude: %1$s \n Latitude: %2$s", location.getLongitude(), location.getLatitude());
             Toast.makeText(GpsDemo.this, message, Toast.LENGTH_LONG).show();
+
+            // put gps data into the server
+            String url = "http://localhost:8000/gps";
+            String data = "{\"imei\": \"Genymotion\",  \"longitude\": " + location.getLongitude() + ", \"latitude\": " + location.getLatitude() + "}";
+            try {
+                HttpResponse<JsonNode> jsonResponse = Unirest.put(url)
+                        .header("Content-Type", "application/json")
+                        .body(data)
+                        .asJson();
+                System.out.println(jsonResponse.getBody().toString());
+                Toast.makeText(GpsDemo.this, jsonResponse.getBody().toString(), Toast.LENGTH_LONG).show();
+            } catch (UnirestException e) {
+                e.printStackTrace();
+                Log.e("GpsDemo", "put exception");
+            }
         }
 
 

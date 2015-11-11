@@ -35,4 +35,8 @@ dependencies {
     compile files('libs/httpmime-4.3.6.jar')
     compile files('libs/httpasyncclient-4.0.2.jar')
     compile files('libs/unirest-java-1.4.7.jar')
+    compile files('libs/commons-logging-1.1.3.jar')
+    compile files('libs/httpcore-4.3.3.jar')
+    compile files('libs/httpcore-nio-4.3.2.jar')
+    compile files('libs/fluent-hc-4.3.6.jar')
 }
