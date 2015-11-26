@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                         String responseStr = response.body().string();
                         // Do what you want to do with the response.
                         Log.i("onCreate", "response successful");
+                        Log.i("onCreate", response.body().toString());
                     } else {
                         // Request not successful
                         Log.i("onCreate", "response is not successful");
