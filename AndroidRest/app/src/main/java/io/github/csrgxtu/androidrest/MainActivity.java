@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String url = "https://raw.github.com/square/okhttp/master/README.md";
+//        String url = "https://raw.github.com/square/okhttp/master/README.md";
+        String url = "http://192.168.1.37:8000/gps/0/10";
         try {
             doReq(url, new Callback() {
                 @Override
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                         String responseStr = response.body().string();
                         // Do what you want to do with the response.
                         Log.i("onCreate", "response successful");
-                        Log.i("onCreate", response.body().toString());
+                        Log.i("onCreate", responseStr);
                     } else {
                         // Request not successful
                         Log.i("onCreate", "response is not successful");
